@@ -28,9 +28,72 @@ svg {
 .kick-pad {
   background: rgb(3, 106, 240);
 }
+.kick-pad.active {
+  background: rgb(1, 88, 201);
+}
+
 .snare-pad {
   background: rgb(137, 14, 219);
 }
+.snare-pad.active {
+  background: rgb(137, 0, 228);
+}
+
 .hihat-pad {
   background: rgb(6, 190, 6);
+}
+.hihat-pad.active {
+  background: rgb(0, 163, 0);
+}
+
+.sequencer {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.kick-track,
+.snare-track,
+.hihat-track {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+  margin-top: 5rem;
+}
+.kick,
+.snare,
+.hihat {
+  display: flex;
+}
+
+.controls button {
+  padding: 0.8rem;
+  border: none;
+  background: rgb(97, 97, 97);
+  color: #fff;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+select {
+  padding: 1rem;
+  font-size: 1.4rem;
+  margin-left: 1rem;
+}
+
+.pad {
+  transition: all 0.5s ease;
+}
+
+.play {
+  padding: 1rem 2rem;
+  font-size: 1.4rem;
+  background: rgb(97, 97, 97);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-top: 3rem;
 }
