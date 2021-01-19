@@ -8,3 +8,29 @@ html {
   /* 1 rem now = 10 pixels*/
   font-size: 62.5%;
 }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+i,
+svg {
+  pointer-events: none;
+}
+
+.kick-pad,
+.snare-pad,
+.hihat-pad {
+  width: 5rem;
+  height: 5rem;
+  margin: 1rem 0.5rem;
+  cursor: pointer;
+}
+.kick-pad {
+  background: rgb(3, 106, 240);
+}
+.snare-pad {
+  background: rgb(137, 14, 219);
+}
+.hihat-pad {
+  background: rgb(6, 190, 6);
+}
