@@ -26,21 +26,21 @@ svg {
   cursor: pointer;
 }
 .kick-pad {
-  background: rgb(3, 106, 240);
+  background: rgb(90, 162, 255);
 }
 .kick-pad.active {
   background: rgb(1, 88, 201);
 }
 
 .snare-pad {
-  background: rgb(137, 14, 219);
+  background: rgb(164, 82, 219);
 }
 .snare-pad.active {
   background: rgb(137, 0, 228);
 }
 
 .hihat-pad {
-  background: rgb(6, 190, 6);
+  background: rgb(76, 214, 76);
 }
 .hihat-pad.active {
   background: rgb(0, 163, 0);
