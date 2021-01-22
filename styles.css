@@ -4,11 +4,6 @@
   box-sizing: border-box;
 }
 
-html {
-  /* 1 rem now = 10 pixels*/
-  font-size: 62.5%;
-}
-
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -86,6 +81,26 @@ select {
 
 .mute.active {
   background: rgb(182, 182, 182);
+}
+
+.tempo {
+  margin: 3rem;
+  width: 30%;
+}
+.tempo-slider {
+  padding: 0.2rem;
+  margin: 1rem 0rem;
+  -webkit-appearance: none;
+  width: 100%;
+  position: relative;
+  background: rgb(97, 97, 97);
+  cursor: pointer;
+  border-radius: 1rem;
+}
+.tempo p {
+  font-size: 1.5rem;
+  margin: 2rem;
+  text-align: center;
 }
 
 .pad {
